@@ -1,0 +1,77 @@
+@import 'header.css';
+@import 'footer.css';
+@import 'general.css';
+.containe {
+    border-left: 10px solid #e74d73;
+    background-color: #CA2E55;
+    color: white;
+    padding: 12px 20px;
+    float: left;
+    width: 75%;
+  }
+  .info {
+    display: flex;
+    float: left;
+    width: 25%;
+  }
+  li.art{
+    border-bottom:1px solid #E6E2E6;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .clon:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  a.Parcourir-des-produits {
+    background-color: #CA2E55;
+    color: white;
+    
+    border: none;
+  
+    cursor: pointer;
+    float: right;
+  }
+  nav.pageactuel{
+    margin-bottom: 30px;
+   
+  }
+
+  h1.container{
+    margin-bottom: 40px;
+  }
+
+  table{
+    border-collapse: collapse;
+    width: 70%;
+    margin-top: 2.5rem;
+  }
+
+   th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+  }
+
+  button.view {
+    cursor: pointer;
+    padding: .600em 2em;
+    border: none;
+  }
+
+  button.view:hover {
+    background-color: #CA2E55;
+    color: white;
+  }
+
+  button.bi-eye-fill{
+     color:black;
+  }
+
+  i.bi.bi-eye-fill {
+    margin-left: 9px;
+  }
+  

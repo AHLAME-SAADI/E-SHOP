@@ -1,0 +1,94 @@
+/* START FOOTER */
+footer{
+  background-color: #141414;
+  color: #FFF;
+  font-size: .9rem;
+  font-weight: 300;
+  margin-top: 3em;
+}
+
+footer .container{
+  display: flex;
+  gap: 5em;
+  padding: 3em 0;
+  column-gap: 10em;
+
+}
+
+footer .container .presentation{
+  text-align: justify;
+  flex: 1;
+}
+
+footer .columns{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 5em;
+}
+
+footer .footer-col h4{
+  font-size: 1.143em;
+  font-weight: 700;
+  margin-bottom: .7em;
+}
+
+
+
+footer ul li{
+  margin: .5em 0;
+  
+}
+
+footer ul li a{
+  color: #adadad;
+}
+
+footer ul li a:hover{
+  color: #5AAE37;
+}
+
+@media (max-width: 1250px)
+{
+  footer .container{
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+
+  footer .copyright p{
+    padding-left: 4em !important;
+    padding-right: 4em !important;
+  }
+}
+
+@media (max-width: 400px)
+{
+  footer .container{
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  footer .copyright p{
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+  }
+}
+
+@media (max-width: 1000px)
+{
+  footer .container{
+    flex-direction: column;
+  }
+
+  footer .columns{
+    justify-content:left;
+  }
+}
+
+footer .copyright{
+  padding: 1.1em 0;
+  background-color: #222222;
+}
+
+footer .copyright p{
+  padding: 0;
+}
